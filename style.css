@@ -92,6 +92,10 @@ form button {
     letter-spacing: 2px;
 }
 
+strong {
+    letter-spacing: 3px;
+}
+
 ul.songs {
     list-style-type: none;
     padding: 0;
@@ -101,14 +105,28 @@ ul.songs li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0rem 0rem;
     margin: 10px 0;
+}
+
+.btn {
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    border: 0;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 3px;
 }
 
 .container {
     position: relative;
     margin: 30px auto;
     max-width: 100%;
-    width: 500px;
+    width: 800px;
 }
 
 .container h2 {
